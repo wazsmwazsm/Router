@@ -1,0 +1,24 @@
+{
+    "name": "wazsmwazsm/Router",
+    "description": "Http Router",
+    "keywords": ["Router", "http"],
+    "license": "MIT",
+    "homepage": "https://github.com/wazsmwazsm/Router",
+    "authors": [
+      {
+        "name": "MrQin",
+        "email": "942443360@qq.com"
+      }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Http\\": "src/Router/"
+        }
+    }
+}
